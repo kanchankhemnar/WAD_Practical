@@ -1,0 +1,40 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+.All h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tableClass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+}
+.Pagination h3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.Buttons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button{
+  padding: 10px;
+  /* background-color: rgb(78, 157, 214); */
+  /* color: white; */
+  border: 1px solid black;
+  border-radius: 10px;
+  
+}
+.disabled{
+  padding: 100px;
+}
