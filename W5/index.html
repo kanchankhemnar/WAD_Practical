@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Listing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .badge-new { background-color: #17a2b8; }
+    .badge-bestseller { background-color: #ffc107; color: #000; }
+    .product-img { width: 100%; height: 200px; object-fit: contain; }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid p-4">
+  <div class="row">
+    <!-- Sidebar -->
+    <div class="col-md-3">
+      <h4>Filters</h4>
+      <div class="mb-3">
+        <h6>Target Market</h6>
+        <div class="form-check"><input class="form-check-input" type="checkbox" id="usa"><label class="form-check-label" for="usa">USA</label></div>
+        <div class="form-check"><input class="form-check-input" type="checkbox" id="uk"><label class="form-check-label" for="uk">United Kingdom</label></div>
+        <div class="form-check"><input class="form-check-input" type="checkbox" id="china"><label class="form-check-label" for="china">China</label></div>
+      </div>
+
+      <div class="mb-3">
+        <h6>Print Area</h6>
+        <div class="form-check"><input class="form-check-input" type="checkbox" id="all"><label class="form-check-label" for="all">All areas</label></div>
+        <div class="form-check"><input class="form-check-input" type="checkbox" id="front"><label class="form-check-label" for="front">Front side</label></div>
+      </div>
+
+      <div class="mb-3">
+        <h6>Print Providers</h6>
+        <div class="form-check"><input class="form-check-input" type="checkbox" id="artsadd"><label class="form-check-label" for="artsadd">ArtsAdd</label></div>
+        <div class="form-check"><input class="form-check-input" type="checkbox" id="colorway"><label class="form-check-label" for="colorway">Colorway</label></div>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="col-md-9">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4>Mugs</h4>
+        <select class="form-select w-auto">
+          <option selected>Sort by Popularity</option>
+          <option>Price: Low to High</option>
+          <option>Price: High to Low</option>
+        </select>
+      </div>
+
+      <div class="row g-4">
+        <!-- Product Card -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image.png" class="product-img card-img-top" alt="Mug" />
+            <div class="card-body">
+              <span class="badge badge-bestseller">Bestseller</span>
+              <h6 class="mt-2">Ceramic Mug 11oz</h6>
+              <p class="text-muted mb-1">By Generic Brand</p>
+              <p class="mb-1">From USD 4.00</p>
+              <p class="text-success small">From USD 3.39 with Premium</p>
+              <p class="small">1 size - District Photo</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Another Product -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image.png" class="product-img card-img-top" alt="Mug" />
+            <div class="card-body">
+              <span class="badge bg-info text-dark">New</span>
+              <h6 class="mt-2">Accent Mug 11oz</h6>
+              <p class="text-muted mb-1">By Generic Brand</p>
+              <p class="mb-1">From USD 5.52</p>
+              <p class="text-success small">From USD 4.25 with Premium</p>
+              <p class="small">5 colors - District Photo</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Another Product -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image.png" class="product-img card-img-top" alt="Mug" />
+            <div class="card-body">
+              <h6>Ceramic Mug 15oz</h6>
+              <p class="text-muted mb-1">By Generic Brand</p>
+              <p class="mb-1">From USD 5.66</p>
+              <p class="text-success small">From USD 4.36 with Premium</p>
+              <p class="small">1 size - District Photo</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more products similarly -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

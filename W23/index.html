@@ -1,0 +1,55 @@
+ <!-- Design a simple personal portfolio mobile site using jQuery Mobile. 
+Include pages like: 
+• About Me 
+• Projects 
+• Skills 
+• Contact Info  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jquery</title>
+      <!-- jQuery Mobile CSS -->
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+
+    <!-- jQuery + jQuery Mobile JS -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+</head>
+<body>
+  <div data-role="page" class="ui-page" id="home">
+    <div data-role="header" class="ui-header">
+      <h1>Kanchan Khemnar</h1>
+      </div>
+      <div data-role="navbar" id="navbarContent">
+        <ul>
+        <a href="#about" data-transition = "fade">About</a>
+        <a href="#projects"  data-transition = "fade">Projects</a>
+        <a href="#skills"  data-transition = "fade">Skills</a>
+        <a href="#contact"  data-transition = "fade">Contact</a>
+        </ul>
+      </div>
+    
+    <div data-role="content">
+      <p>hello guys Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga explicabo amet dolorum, voluptate in reiciendis nobis consequatur qui nesciunt quos. Amet quaerat ad ducimus nulla, facilis, temporibus sed sequi cupiditate iste aliquid at dolores possimus officia veniam cumque porro. Recusandae ad veritatis error porro, eaque consequuntur voluptates quis rerum molestiae.</p>
+    </div>
+    <div data-role="footer">
+      &copy; kanchan khemnar 2025
+
+    </div>
+  </div>
+
+  <div data-role="page" class="ui-page" id="about">
+    <p>about</p>
+    <div data-role="button" class="ui-btn">
+    <a href="#home">Home</a>
+    </div>
+  </div>
+</body>
+</html>

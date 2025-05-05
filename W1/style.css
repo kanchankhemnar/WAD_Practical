@@ -1,40 +1,49 @@
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: antiquewhite;
 }
-.All h1{
+.All h1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.tableClass{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: darkgray;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
 }
-.Pagination h3{
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #f5a623;
+  color: white;
+}
+.Pagination h3 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
-.Buttons{
+.Buttons {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-button{
+button {
   padding: 10px;
   /* background-color: rgb(78, 157, 214); */
   /* color: white; */
   border: 1px solid black;
   border-radius: 10px;
-  
 }
-.disabled{
+.disabled {
   padding: 100px;
 }

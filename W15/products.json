@@ -1,0 +1,16 @@
+ [
+  { "name": "Pen", "price": 10, "image": "image.png" },
+  { "name": "Notebook", "price": 25, "image": "image.png" },
+  { "name": "Pencil", "price": 5, "image": "image.png" },
+  { "name": "Eraser", "price": 2, "image": "image.png" },
+  { "name": "Ruler", "price": 15, "image": "image.png" },
+  { "name": "Marker", "price": 30, "image": "image.png" },
+  { "name": "Highlighter", "price": 12, "image": "image.png" },
+  { "name": "Glue", "price": 20, "image": "image.png" },
+  { "name": "Scissors", "price": 18, "image": "image.png" },
+  { "name": "Tape", "price": 8, "image": "image.png" },
+  { "name": "Stapler", "price": 22, "image": "image.png" },
+  { "name": "Folder", "price": 12, "image": "image.png" },
+  { "name": "Paper Clips", "price": 4, "image": "image.png" },
+  { "name": "Notebook", "price": 10, "image": "image.png" }
+]
