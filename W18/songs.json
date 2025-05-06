@@ -1,0 +1,32 @@
+[
+  {
+    "songname": "Kesariya",
+    "film": "Brahmastra",
+    "music_director": "Pritam",
+    "singer": "Arijit Singh"
+  },
+  {
+    "songname": "Tum Hi Ho",
+    "film": "Aashiqui 2",
+    "music_director": "Mithoon",
+    "singer": "Arijit Singh"
+  },
+  {
+    "songname": "Zinda",
+    "film": "Bhaag Milkha Bhaag",
+    "music_director": "Shankar-Ehsaan-Loy",
+    "singer": "Siddharth Mahadevan"
+  },
+  {
+    "songname": "Kal Ho Naa Ho",
+    "film": "Kal Ho Naa Ho",
+    "music_director": "Shankar-Ehsaan-Loy",
+    "singer": "Sonu Nigam"
+  },
+  {
+    "songname": "Jab Tak",
+    "film": "MS Dhoni",
+    "music_director": "Amaal Mallik",
+    "singer": "Armaan Malik"
+  }
+]
